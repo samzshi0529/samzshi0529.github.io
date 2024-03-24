@@ -12,7 +12,7 @@ Hello, I am Sam Shi, 施展. I'm a current MSE in Data Science student at Univer
 
 ## Projects
 
-- A Machine Learning Approach for US Mortgage Risk Analysis
+1. A Machine Learning Approach for US Mortgage Risk Analysis
 
 Our independent study introduces a innovative machine learning methodology to improve mortgage default risk analysis through three key approaches:
 1. **Interpretable Models**: We focus on developing models that are not only accurate but also interpretable, highlighting the top 10 risk-augmenting features that influence mortgage risks.
