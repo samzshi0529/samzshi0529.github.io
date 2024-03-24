@@ -19,4 +19,4 @@ An user-friendly and easy-to-use Natural Language Processing package specificall
 
 ## Contact
 1. Email: samzshi@sina.com
-2. Linkedin: <a href="{{ Linkedin_URL }}" target="_blank">www.linkedin.com/in/zhanshisamuel</a>.
+2. Linkedin: <a href="{{ Linkedin_URL }}" target="_blank">Linkedin Link</a>.
