@@ -1,47 +1,59 @@
-body {
-    font-family: Arial, sans-serif;
+/* Existing style.css content */
+
+/* Header styling */
+header {
+    background-color: #007bff; /* Example color */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Ensure the body stretches to the full height of the viewport */
+html, body {
+    height: 100%;
     margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f4f4f4;
 }
 
 .container {
     display: flex;
-    max-width: 900px;
-    background: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Ensure container is centered and leaves space for footer */
+    margin-bottom: 60px; 
 }
 
-.photo {
+/* Adjustments to photo and info sections for better responsiveness */
+.photo, .info {
     flex: 1;
-    text-align: center;
-    padding-right: 20px;
+    padding: 10px;
 }
 
 .photo img {
-    max-width: 100%;
-    height: auto;
+    width: 100%; /* Ensure the image is responsive */
+    max-width: 200px; /* Adjust based on your preference */
     border-radius: 50%;
 }
 
-.info {
-    flex: 2;
-}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
 
-h1, h2 {
-    color: #333;
-}
-
-p, li {
-    color: #666;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
+    footer {
+        position: relative;
+    }
 }
