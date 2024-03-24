@@ -1,59 +1,97 @@
-/* Existing style.css content */
-
-/* Header styling */
-header {
-    background-color: #007bff; /* Example color */
-    color: #ffffff;
-    padding: 20px;
-    text-align: center;
-}
-
-/* Footer styling */
-footer {
-    background-color: #333;
-    color: #ffffff;
-    text-align: center;
-    padding: 20px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
-/* Ensure the body stretches to the full height of the viewport */
-html, body {
-    height: 100%;
+/* Base Styles */
+body, h1, h2, p {
     margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
 }
 
 .container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
+    align-items: flex-start;
     padding: 20px;
-    /* Ensure container is centered and leaves space for footer */
-    margin-bottom: 60px; 
+    max-width: 1200px;
+    margin: auto;
 }
 
-/* Adjustments to photo and info sections for better responsiveness */
-.photo, .info {
-    flex: 1;
-    padding: 10px;
-}
-
-.photo img {
-    width: 100%; /* Ensure the image is responsive */
-    max-width: 200px; /* Adjust based on your preference */
+/* Profile photo styles */
+.profile-photo {
+    flex: 0 0 200px; /* Adjust width as needed */
+    margin-right: 20px;
     border-radius: 50%;
+    overflow: hidden;
+    height: 200px; /* Adjust height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-photo img {
+    width: 100%;
+}
+
+/* Content styles */
+.content {
+    flex: 1;
+}
+
+.content h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.content p {
+    margin-bottom: 20px;
+}
+
+.content h2 {
+    font-size: 24px;
+    color: #000;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/* Links and Lists */
+.content a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.content li {
+    margin-bottom: 5px;
+}
+
+.content li:before {
+    content: '•';
+    margin-right: 5px;
+    color: #333; /* or any color you prefer */
 }
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
+        padding: 20px;
     }
 
-    footer {
-        position: relative;
+    .profile-photo {
+        margin-bottom: 20px;
+    }
+
+    .content h1 {
+        font-size: 22px;
+    }
+
+    .content h2 {
+        font-size: 20px;
     }
 }
