@@ -1,30 +1,36 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    {% seo %}
+
+{% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     {% include head-custom.html %}
-</head>
-<body>
-<div class="wrapper">
-    <header>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
+
         <p>{{ site.description | default: site.github.project_tagline }}</p>
+
         {% if site.github.is_project_page %}
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
         {% endif %}
+
         {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
+
         {% if site.show_downloads %}
         <ul class="downloads">
           <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
@@ -32,39 +38,19 @@
           <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
         </ul>
         {% endif %}
-    </header>
-    <section>
-        {{ content }}
-    </section>
-    <section id="about-me">
-        <h2>About Me</h2>
-        <p>Hello! My name is [Your Name], and I'm a [Your Profession/Role]. I've created this site to showcase my work and share insights about my journey in the [Your Field/Industry]. Welcome!</p>
-    </section>
-    <section id="education-background">
-        <h2>Education Background</h2>
-        <ul>
-            <li><strong>[Degree]</strong> in <strong>[Major]</strong> from <strong>[University/College]</strong> (Year of Graduation)</li>
-            <!-- Add more items as needed -->
-        </ul>
-    </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project 1: [Project Name]</h3>
-            <p><strong>Summary:</strong> A brief description of the project.</p>
-            <p><strong>Technologies Used:</strong> List the technologies used.</p>
-            <p><strong>Outcome:</strong> What was achieved or learned through this project.</p>
-            <p><a href="[Project URL]">View Project</a></p>
-        </div>
-        <!-- Add more projects as needed -->
-    </section>
-    <footer>
+      </header>
+      <section>
+
+      {{ content }}
+
+      </section>
+      <footer>
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-    </footer>
-</div>
-<script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-</body>
+      </footer>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  </body>
 </html>
