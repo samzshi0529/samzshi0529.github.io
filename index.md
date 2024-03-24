@@ -2,7 +2,8 @@
 layout: default
 ---
 
-Hello, I'm a current MSE in Data Science student at University of Pennsylvania. I graduated Summa Cum Laude from Wake Forest University majoring in Mathematical Business and Computer Science. 
+## About Me 
+Hello, 施展I'm a current MSE in Data Science student at University of Pennsylvania. I graduated Summa Cum Laude from Wake Forest University majoring in Mathematical Business and Computer Science. 
 
 ## Education Background
 
