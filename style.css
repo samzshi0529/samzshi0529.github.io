@@ -13,57 +13,64 @@ body, html {
 }
 
 .container {
-    width: 90%;
-    max-width: 960px;
-    margin: 20px auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 40px auto;
     padding: 20px;
-    text-align: center;
 }
 
-.header {
-    margin-bottom: 40px;
+.profile-column {
+    flex-basis: 30%; /* Adjust the width of the profile column */
+    text-align: center;
+    padding-right: 20px; /* Add some space between the columns */
 }
 
 .profile-photo {
+    width: 100%; /* The image will take the full width of the .profile-column */
+    max-width: 300px; /* Adjust the maximum size as needed */
+    height: auto;
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    display: block;
-    margin: 0 auto 20px;
-}
-
-h1 {
-    font-size: 28px;
-    margin-bottom: 10px;
-}
-
-h2 {
-    font-size: 22px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    color: #0056b3; /* A color that stands out a bit for section titles */
-}
-
-p {
-    font-size: 16px;
     margin-bottom: 20px;
 }
 
-.contact p {
-    font-style: italic;
+.content-column {
+    flex-basis: 70%; /* Adjust the width of the content column */
 }
 
-@media (max-width: 600px) {
+h1, h2 {
+    color: #0056b3; /* A color that stands out a bit for section titles */
+}
+
+h1 {
+    margin: 0 0 20px 0;
+    font-size: 28px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+p {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
     .container {
-        width: 95%;
-        margin: 10px auto;
-        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-column, .content-column {
+        flex-basis: 100%;
     }
 
     .profile-photo {
-        width: 80px;
-        height: 80px;
+        max-width: 200px;
     }
 
     h1 {
