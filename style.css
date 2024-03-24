@@ -5,16 +5,20 @@
     box-sizing: border-box;
 }
 
-body {
+body, html {
+    height: 100%; /* Make sure the html and body are full height */
+    margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif; /* Use a web-safe font */
-    background-color: #f0f0f0; /* Light grey background */
+    background-color: #fff; /* White background for the full page */
     color: #333; /* Dark grey text */
     line-height: 1.6;
 }
 
 .container {
-    padding: 20px;
-    background-color: #fff; /* Keep the white background for content area */
+    min-height: 100%; /* Ensure container covers the viewport height */
+    padding: 20px; /* Padding for the content */
+    box-shadow: none; /* No shadow for a full-page look */
 }
 
 .profile-photo {
@@ -27,6 +31,11 @@ body {
     max-width: 150px; /* Limit the size of the photo */
 }
 
+.content {
+    margin: 0 auto; /* Center the content horizontally */
+    text-align: center; /* Center-align text for a neat look */
+}
+
 .content h1, .content h2 {
     color: #333; /* Dark grey for headings */
 }
@@ -37,12 +46,7 @@ body {
 
 .content p {
     margin-bottom: 20px; /* Space between paragraphs */
-    text-align: justify; /* Justify the text for better readability */
+    /* Removed text-align: justify; for a centered look */
 }
 
-/* Responsive design for smaller screens */
-@media (max-width: 600px) {
-    .profile-photo img {
-        max-width: 100px; /* Smaller image on smaller screens */
-    }
-}
+/* Remove max-width and margins on larger containers to allow for full-width content */
