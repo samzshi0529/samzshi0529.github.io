@@ -1,3 +1,4 @@
+/* Reset and Basic Styling */
 * {
     margin: 0;
     padding: 0;
@@ -5,95 +6,87 @@
 }
 
 body, html {
-    min-height: 100%;
+    width: 100%;
+    height: 100%;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    background-color: #e7eef4;
-    color: #333;
+    background-color: #ffffff;
+    color: #333333;
     line-height: 1.6;
-    font-size: 16px;
 }
 
+/* Container and Layout */
 .container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 1200px;
-    margin: 40px auto;
-    background: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 5% 10%;
+}
+
+/* Profile and Content Columns */
+.profile-column, .content-column {
+    flex-basis: 50%;
 }
 
 .profile-column {
-    flex: 1 1 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 40px;
-    background: #f7f9fc;
-    border-right: 2px solid #e7eef4;
-}
-
-.profile-photo {
-    width: 200px; /* Adjust size as needed */
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 5px solid #ffffff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+    padding-right: 5%;
+    text-align: center;
 }
 
 .content-column {
-    flex: 3 1 600px;
-    padding: 40px;
-    text-align: left;
+    padding-left: 5%;
+}
+
+/* Typography */
+h1, h2 {
+    color: #333333;
+    line-height: 1.2;
+    margin: 0.5em 0;
 }
 
 h1 {
-    font-size: 2em;
-    color: #333;
-    margin-bottom: 0.5em;
+    font-size: 3em;
 }
 
 h2 {
     font-size: 1.5em;
-    color: #0275d8;
-    margin-bottom: 0.5em;
+    color: #555;
 }
 
 p {
     margin-bottom: 1em;
-    color: #555;
-    line-height: 1.8;
+    font-size: 1em;
+    color: #666;
 }
 
+/* Profile Photo Styling */
+.profile-photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* Responsive Design */
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
+        padding: 10% 5%;
+    }
+
+    .profile-column, .content-column {
+        flex-basis: 100%;
     }
 
     .profile-column {
-        border-right: none;
-        border-bottom: 2px solid #e7eef4;
+        padding-right: 0;
+        padding-bottom: 5%;
     }
 
-    .profile-photo {
-        width: 150px;
-        height: 150px;
+    .content-column {
+        padding-left: 0;
     }
 
     h1 {
-        font-size: 1.75em;
-    }
-
-    h2 {
-        font-size: 1.25em;
-    }
-
-    p {
-        font-size: 0.9em;
+        font-size: 2em;
     }
 }
