@@ -1,4 +1,3 @@
-/* Reset and Basic Styling */
 * {
     margin: 0;
     padding: 0;
@@ -9,84 +8,64 @@ body, html {
     width: 100%;
     height: 100%;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    background-color: #ffffff;
-    color: #333333;
+    background-color: #fafafa;
+    color: #222;
     line-height: 1.6;
 }
 
-/* Container and Layout */
 .container {
     display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    padding: 5% 10%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    min-height: 100vh;
 }
 
-/* Profile and Content Columns */
-.profile-column, .content-column {
-    flex-basis: 50%;
+.profile-photo {
+    border-radius: 50%;
+    width: 200px; /* Adjust size as needed */
+    border: 5px solid #fff; /* Adjust border color as needed */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
 }
 
-.profile-column {
-    padding-right: 5%;
+.content {
     text-align: center;
 }
 
-.content-column {
-    padding-left: 5%;
-}
-
-/* Typography */
-h1, h2 {
-    color: #333333;
-    line-height: 1.2;
-    margin: 0.5em 0;
-}
-
 h1 {
-    font-size: 3em;
-}
-
-h2 {
-    font-size: 1.5em;
-    color: #555;
-}
-
-p {
-    margin-bottom: 1em;
-    font-size: 1em;
-    color: #666;
-}
-
-/* Profile Photo Styling */
-.profile-photo {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
+    font-size: 2.5rem;
     margin-bottom: 20px;
 }
 
-/* Responsive Design */
+h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 1rem;
+    color: #666;
+    max-width: 600px; /* Adjust as needed */
+    margin-bottom: 15px;
+}
+
 @media (max-width: 768px) {
     .container {
-        flex-direction: column;
-        padding: 10% 5%;
+        padding: 30px;
     }
 
-    .profile-column, .content-column {
-        flex-basis: 100%;
-    }
-
-    .profile-column {
-        padding-right: 0;
-        padding-bottom: 5%;
-    }
-
-    .content-column {
-        padding-left: 0;
+    .profile-photo {
+        width: 150px;
     }
 
     h1 {
-        font-size: 2em;
+        font-size: 2rem;
+    }
+
+    p {
+        max-width: 100%;
     }
 }
