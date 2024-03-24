@@ -6,47 +6,60 @@
 }
 
 body, html {
-    height: 100%; /* Make sure the html and body are full height */
+    height: 100%; /* Ensure html and body cover full height of the viewport */
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif; /* Use a web-safe font */
-    background-color: #fff; /* White background for the full page */
-    color: #333; /* Dark grey text */
-    line-height: 1.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* A more modern font choice */
+    background-color: #fff; /* White background for full page */
+    color: #333; /* Dark grey text for better contrast and readability */
+    line-height: 1.4; /* Reduced line height for a more compact look */
 }
 
 .container {
     min-height: 100%; /* Ensure container covers the viewport height */
-    padding: 20px; /* Padding for the content */
-    box-shadow: none; /* No shadow for a full-page look */
-}
-
-.profile-photo {
-    text-align: center; /* Center the profile photo */
-    margin-bottom: 20px; /* Add some space below the photo */
-}
-
-.profile-photo img {
-    border-radius: 50%; /* Make the image round */
-    max-width: 150px; /* Limit the size of the photo */
-}
-
-.content {
-    margin: 0 auto; /* Center the content horizontally */
+    padding: 10px; /* Reduced padding for a more compact layout */
     text-align: center; /* Center-align text for a neat look */
 }
 
-.content h1, .content h2 {
-    color: #333; /* Dark grey for headings */
+.profile-photo {
+    margin: 10px 0; /* Reduced margin around the photo */
+    padding: 10px; /* Padding to provide space around the photo */
+    display: inline-block; /* Aligns the photo block in line with the text */
 }
 
-.content h1 {
-    margin-bottom: 10px; /* Space below the main heading */
+.profile-photo img {
+    border-radius: 50%; /* Keeps the image round */
+    width: 100px; /* Smaller size for the photo for a compact look */
+    height: 100px; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the area without stretching */
+}
+
+.content {
+    display: inline-block; /* Aligns the content block in line with the photo */
+    vertical-align: top; /* Align the content at the top */
+    max-width: 600px; /* Max width for content area */
+    margin-left: 20px; /* Spacing between photo and content */
+}
+
+.content h1, .content h2 {
+    margin-top: 0; /* Remove top margin for headings */
+    margin-bottom: 5px; /* Reduce bottom margin for a compact heading */
 }
 
 .content p {
-    margin-bottom: 20px; /* Space between paragraphs */
-    /* Removed text-align: justify; for a centered look */
+    margin-bottom: 10px; /* Reduced space between paragraphs */
 }
 
-/* Remove max-width and margins on larger containers to allow for full-width content */
+/* Smaller fonts for a more compact look */
+.content h1 {
+    font-size: 24px;
+}
+
+.content h2 {
+    font-size: 20px;
+}
+
+.content p {
+    font-size: 14px;
+}
+
