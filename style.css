@@ -1,4 +1,3 @@
-/* Reset margin and padding */
 * {
     margin: 0;
     padding: 0;
@@ -6,60 +5,76 @@
 }
 
 body, html {
-    height: 100%; /* Ensure html and body cover full height of the viewport */
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* A more modern font choice */
-    background-color: #fff; /* White background for full page */
-    color: #333; /* Dark grey text for better contrast and readability */
-    line-height: 1.4; /* Reduced line height for a more compact look */
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.4;
 }
 
 .container {
-    min-height: 100%; /* Ensure container covers the viewport height */
-    padding: 10px; /* Reduced padding for a more compact layout */
-    text-align: center; /* Center-align text for a neat look */
+    width: 90%;
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.header {
+    margin-bottom: 40px;
 }
 
 .profile-photo {
-    margin: 10px 0; /* Reduced margin around the photo */
-    padding: 10px; /* Padding to provide space around the photo */
-    display: inline-block; /* Aligns the photo block in line with the text */
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 20px;
 }
 
-.profile-photo img {
-    border-radius: 50%; /* Keeps the image round */
-    width: 100px; /* Smaller size for the photo for a compact look */
-    height: 100px; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensure the image covers the area without stretching */
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
 }
 
-.content {
-    display: inline-block; /* Aligns the content block in line with the photo */
-    vertical-align: top; /* Align the content at the top */
-    max-width: 600px; /* Max width for content area */
-    margin-left: 20px; /* Spacing between photo and content */
+h2 {
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #0056b3; /* A color that stands out a bit for section titles */
 }
 
-.content h1, .content h2 {
-    margin-top: 0; /* Remove top margin for headings */
-    margin-bottom: 5px; /* Reduce bottom margin for a compact heading */
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
 }
 
-.content p {
-    margin-bottom: 10px; /* Reduced space between paragraphs */
+.contact p {
+    font-style: italic;
 }
 
-/* Smaller fonts for a more compact look */
-.content h1 {
-    font-size: 24px;
-}
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+        margin: 10px auto;
+        padding: 10px;
+    }
 
-.content h2 {
-    font-size: 20px;
-}
+    .profile-photo {
+        width: 80px;
+        height: 80px;
+    }
 
-.content p {
-    font-size: 14px;
-}
+    h1 {
+        font-size: 24px;
+    }
 
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
