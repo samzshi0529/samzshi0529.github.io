@@ -9,50 +9,58 @@ body {
 .container {
     display: flex;
     align-items: center;
-    justify-content: start;
-    max-width: 800px;
-    margin: 20px auto;
+    justify-content: flex-start;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 20px;
 }
 
 .profile-photo {
-    /* Assuming you want a square photo, adjust the width and height as necessary */
-    width: 150px; /* Equal width and height will make the image square */
+    /* Setting the photo as a square */
+    flex-shrink: 0; /* Prevent the image from shrinking */
+    width: 150px;
     height: 150px;
-    margin-right: 20px; /* Adds some space between the photo and the text */
-    object-fit: cover; /* This will cover the area without distorting aspect ratio */
+    object-fit: cover; /* Ensures the image covers the area */
+    border: 3px solid #ddd; /* Optional: adds a subtle border around the image */
 }
 
 .content {
     text-align: left;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color: #000;
+/* Headers and Text content */
+h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
 }
 
-p, li {
-    font-size: 16px;
+h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-top: 0.5em;
+    margin-bottom: 0.3em;
+}
+
+p, li, a {
+    font-size: 1em;
     line-height: 1.5;
-    margin-bottom: 10px;
-}
-
-a {
-    color: #0000EE;
+    color: #666;
+    text-decoration: none; /* Removes underline from links */
 }
 
 a:hover {
-    text-decoration: underline;
+    color: #000; /* Change as needed */
 }
 
-/* No need for a media query here as the design is inherently responsive due to its simplicity */
+/* Media Queries for Responsive Adjustment */
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
-        align-items: flex-start;
+        text-align: center;
     }
 
-    .profile-photo {
-        margin-bottom: 20px;
-        margin-right: 0;
+    .content {
+        text-align: center;
     }
 }
