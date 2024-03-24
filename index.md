@@ -12,8 +12,11 @@ Hello, I am Sam Shi, 施展. I'm a current MSE in Data Science student at Univer
 
 ## Projects
 
-### A Machine Learning Approach for US Mortgage Risk Analysis
+- A Machine Learning Approach for US Mortgage Risk Analysis
 
-This repository contains the source code and datasets for a independent study focused on enhancing mortgage risk analysis. Our study is motivated by the significant impact that MBS can have on the broader economy, as was evident during the 2008 financial crisis. We address the challenges in current public studies which often lack explainability or rely on extensive data for accurate predictions.
+Our independent study introduces a innovative machine learning methodology to improve mortgage default risk analysis through three key approaches:
+1. **Interpretable Models**: We focus on developing models that are not only accurate but also interpretable, highlighting the top 10 risk-augmenting features that influence mortgage risks.
+2. **LSTM-based Predictions**: We demonstrate the efficacy of a Long Short-Term Memory (LSTM)-based model in generating reliable predictions from limited data sets.
+3. **Loan-Level Framework**: A new framework at the loan level is proposed for a more nuanced assessment of mortgage risks.
 
 For more details, visit [Project Website](**https://github.com/samzshi0529/A-Machine-Learning-Approach-for-US-Mortgage-Risk-Analysis**).
