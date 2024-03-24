@@ -7,16 +7,19 @@ body {
 }
 
 .container {
-    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .profile-photo {
-    width: 150px;
+    /* Assuming you want a square photo, adjust the width and height as necessary */
+    width: 150px; /* Equal width and height will make the image square */
     height: 150px;
-    border-radius: 50%;
-    margin-bottom: 20px;
+    margin-right: 20px; /* Adds some space between the photo and the text */
+    object-fit: cover; /* This will cover the area without distorting aspect ratio */
 }
 
 .content {
@@ -42,3 +45,14 @@ a:hover {
 }
 
 /* No need for a media query here as the design is inherently responsive due to its simplicity */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .profile-photo {
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+}
