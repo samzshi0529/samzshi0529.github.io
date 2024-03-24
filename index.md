@@ -10,7 +10,7 @@ Hello, I am Sam Shi, 施展. I'm a current MSE in Data Science student at Univer
 - **MSE**, Data Science, University of Pennsylvania, 2022-2024
 - **B.S.**, Mathematical Business & Computer Science, Wake Forest University, 2018-2022
 
-## Projects
+## Individual Projects
 
 1. **Dec, 2023, A Machine Learning Approach for US Mortgage Risk Analysis**:
 An independent study, serving as a practicum in UPenn, introducing a new machine learning methodology to improve mortgage default risk analysis. For more details, visit [Project Website](**https://github.com/samzshi0529/A-Machine-Learning-Approach-for-US-Mortgage-Risk-Analysis**).
