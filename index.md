@@ -17,3 +17,6 @@ An independent study, serving as a practicum at UPenn, introducing a new machine
 2. **HanziNLP, Python Package**:
 An user-friendly and easy-to-use Natural Language Processing package specifically designed for Chinese text analysis, modeling, and visualization. All functions in HanziNLP support Chinese text and work well for Chinese text. For more details, visit <a href="{{ site.github.project_2_URL }}" target="_blank">Project Website</a>.
 
+## Contact
+1. Email: samzshi@sina.com
+2. Linkedin: <a href="{{ www.linkedin.com/in/zhanshisamuel }}" target="_blank">www.linkedin.com/in/zhanshisamuel</a>.
