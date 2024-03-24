@@ -10,16 +10,11 @@ body {
     background-color: #f0f0f0; /* Light grey background */
     color: #333; /* Dark grey text */
     line-height: 1.6;
-    padding: 20px;
-    max-width: 800px; /* Max width for content */
-    margin: auto; /* Center the content */
 }
 
 .container {
-    background-color: #fff;
     padding: 20px;
-    border-radius: 5px; /* Rounded corners for the container */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    background-color: #fff; /* Keep the white background for content area */
 }
 
 .profile-photo {
@@ -47,14 +42,6 @@ body {
 
 /* Responsive design for smaller screens */
 @media (max-width: 600px) {
-    body {
-        padding: 10px;
-    }
-
-    .container {
-        padding: 10px;
-    }
-
     .profile-photo img {
         max-width: 100px; /* Smaller image on smaller screens */
     }
