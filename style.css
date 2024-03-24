@@ -1,105 +1,61 @@
-/* Reset Styles */
+/* Reset margin and padding */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body and Typography */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif; /* Use a web-safe font */
+    background-color: #f0f0f0; /* Light grey background */
+    color: #333; /* Dark grey text */
     line-height: 1.6;
-    color: #333;
     padding: 20px;
+    max-width: 800px; /* Max width for content */
+    margin: auto; /* Center the content */
 }
 
-/* Layout Containers */
 .container {
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    flex-direction: row; /* Default for larger screens */
-    align-items: flex-start;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px; /* Rounded corners for the container */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
 }
 
-/* Profile Section */
 .profile-photo {
-    width: 200px; /* Fixed width */
-    height: 200px; /* Fixed height */
-    margin-right: 20px;
-    border-radius: 50%;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center; /* Center the profile photo */
+    margin-bottom: 20px; /* Add some space below the photo */
 }
 
 .profile-photo img {
-    width: 100%;
+    border-radius: 50%; /* Make the image round */
+    max-width: 150px; /* Limit the size of the photo */
 }
 
-/* Main Content */
-.content {
-    flex-grow: 1;
+.content h1, .content h2 {
+    color: #333; /* Dark grey for headings */
 }
 
-.content h1,
-.content h2,
-.content p {
-    margin-bottom: 20px;
-}
-
-/* Enhancements for Headings */
 .content h1 {
-    font-size: 28px;
+    margin-bottom: 10px; /* Space below the main heading */
 }
 
-.content h2 {
-    font-size: 24px;
-    color: #000;
+.content p {
+    margin-bottom: 20px; /* Space between paragraphs */
+    text-align: justify; /* Justify the text for better readability */
 }
 
-/* Link Styles */
-.content a {
-    color: #007bff;
-    text-decoration: none;
-}
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
 
-/* List Styles */
-.content ul {
-    list-style: none;
-}
-
-.content li {
-    margin-bottom: 5px;
-    position: relative;
-    padding-left: 20px;
-}
-
-.content li::before {
-    content: '•';
-    position: absolute;
-    left: 0;
-    color: #333;
-}
-
-/* Responsive Design Adjustments */
-@media (max-width: 768px) {
     .container {
-        flex-direction: column;
+        padding: 10px;
     }
 
-    .profile-photo {
-        margin: 0 auto 20px; /* Center in mobile view */
-        width: 150px; /* Smaller size */
-        height: 150px; /* Smaller size */
-    }
-
-    .content h1 {
-        font-size: 22px;
-    }
-
-    .content h2 {
-        font-size: 20px;
+    .profile-photo img {
+        max-width: 100px; /* Smaller image on smaller screens */
     }
 }
