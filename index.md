@@ -2,14 +2,12 @@
 layout: default
 ---
 
-# About Me
-
-Hello! I'm [Your Name], a [Your Role] with a passion for [Your Passion/Area of Interest]. Here's a little about my background and some of the projects I've worked on.
+Hello, I'm a current MSE in Data Science student at University of Pennsylvania. I graduated Summa Cum Laude from Wake Forest University majoring in Mathematical Business and Computer Science. 
 
 ## Education Background
 
-- **[Your Degree]**, [Your Major], [Your University], [Year]
-- **[Another Degree]**, [Your Major], [Your University], [Year]
+- **[MSE]**, [Data Science], [University of Pennsylvania], [2022-2024]
+- **[B.S.]**, [Mathematical Business & Computer Science], [Wake Forest University], [2018-2022]
 
 ## Projects
 
