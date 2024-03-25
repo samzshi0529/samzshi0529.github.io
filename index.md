@@ -5,6 +5,10 @@ layout: default
 ## About Me 
 Hello, I am Sam Shi, 施展. I'm a current MSE in Data Science student at the University of Pennsylvania. I graduated Summa Cum Laude from Wake Forest University majoring in Mathematical Business and Computer Science. 
 
+## Contact
+1. Email: samzshi@sina.com
+2. Linkedin: <a href="{{ site.github.Linkedin_URL }}" target="_blank">www.linkedin.com/in/zhanshisamuel</a>
+
 ## Education Background
 
 - **MSE**, Data Science, University of Pennsylvania, 2022-2024
@@ -18,7 +22,3 @@ An independent study advised by Brandon Krakowsky, serving as a practicum at UPe
 An user-friendly and easy-to-use Natural Language Processing package specifically designed for Chinese text analysis, modeling, and visualization. All functions in HanziNLP support Chinese text and work well for Chinese text. For more details, visit <a href="{{ site.github.project_2_URL }}" target="_blank">Project Website</a>.
 3. **Stock Analysis Dashboard**:
 A simple stock analysis dashboard that supports common technical analysis, correlation analysis, and time series modeling. The dashboard is solely designed for entertainment and educational purposes. For more details, visit <a href="{{ site.github.project_3_URL }}" target="_blank">Project Website</a>.
-
-## Contact
-1. Email: samzshi@sina.com
-2. Linkedin: <a href="{{ site.github.Linkedin_URL }}" target="_blank">www.linkedin.com/in/zhanshisamuel</a>
