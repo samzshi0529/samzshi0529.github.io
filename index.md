@@ -16,6 +16,8 @@ Hello, I am Sam Shi, 施展. I'm a current MSE in Data Science student at the Un
 An independent study, serving as a practicum at UPenn, introducing a new machine learning methodology to improve mortgage default risk analysis. For more details, visit <a href="{{ site.github.project_1_URL }}" target="_blank">Project Website</a>.
 2. **HanziNLP, Python Package**:
 An user-friendly and easy-to-use Natural Language Processing package specifically designed for Chinese text analysis, modeling, and visualization. All functions in HanziNLP support Chinese text and work well for Chinese text. For more details, visit <a href="{{ site.github.project_2_URL }}" target="_blank">Project Website</a>.
+3. **Stock Analysis Dashboard**:
+A simple stock analysis dashboard that supports common technical analysis, correlation analysis, and time series modeling. The dashboard is solely designed for entertainment and educational purposes. For more details, visit <a href="{{ site.github.project_3_URL }}" target="_blank">Project Website</a>.
 
 ## Contact
 1. Email: samzshi@sina.com
