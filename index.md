@@ -21,3 +21,5 @@ An user-friendly and easy-to-use Natural Language Processing package specificall
 [![Downloads](https://static.pepy.tech/badge/hanzinlp)](https://pepy.tech/project/hanzinlp)
 3. **Stock Analysis Dashboard**:
 A simple stock analysis dashboard that supports common technical analysis, correlation analysis, and time series modeling. The dashboard is solely designed for entertainment and educational purposes. For more details, visit <a href="{{ site.github.project_3_URL }}" target="_blank">Project Website</a>.
+
+<a href="{{ site.github.project_4_URL }}" target="_blank">Project Website</a>
