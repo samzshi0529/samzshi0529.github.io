@@ -17,6 +17,8 @@ Hello, I am Sam Shi, 施展. I'm a current MSE in Data Science student at the Un
 1. **Dec. 2023, A Machine Learning Approach for US Mortgage Risk Analysis**:
 An independent study advised by Brandon Krakowsky, serving as a practicum at UPenn, introducing a new machine learning methodology to improve mortgage default risk analysis. For more details, visit <a href="{{ site.github.project_1_URL }}" target="_blank">Project Website</a>.
 2. **HanziNLP, Python Package**:
-An user-friendly and easy-to-use Natural Language Processing package specifically designed for Chinese text analysis, modeling, and visualization. All functions in HanziNLP support Chinese text and work well for Chinese text. For more details, visit <a href="{{ site.github.project_2_URL }}" target="_blank">Project Website</a>. [![Downloads](https://static.pepy.tech/badge/hanzinlp)](https://pepy.tech/project/hanzinlp)
+An user-friendly and easy-to-use Natural Language Processing package specifically designed for Chinese text analysis, modeling, and visualization. All functions in HanziNLP support Chinese text and work well for Chinese text. For more details, visit <a href="{{ site.github.project_2_URL }}" target="_blank">Project Website</a>.
+Download Stats:
+[![Downloads](https://static.pepy.tech/badge/hanzinlp)](https://pepy.tech/project/hanzinlp)[![Downloads](https://static.pepy.tech/badge/hanzinlp/month)](https://pepy.tech/project/hanzinlp)[![Downloads](https://static.pepy.tech/badge/hanzinlp/week)](https://pepy.tech/project/hanzinlp)
 3. **Stock Analysis Dashboard**:
 A simple stock analysis dashboard that supports common technical analysis, correlation analysis, and time series modeling. The dashboard is solely designed for entertainment and educational purposes. For more details, visit <a href="{{ site.github.project_3_URL }}" target="_blank">Project Website</a>.
