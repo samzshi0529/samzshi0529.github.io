@@ -21,5 +21,5 @@ An user-friendly and easy-to-use Natural Language Processing package specificall
 [![Downloads](https://static.pepy.tech/badge/hanzinlp)](https://pepy.tech/project/hanzinlp)
 3. **Stock Analysis Dashboard**:
 A simple stock analysis dashboard that supports common technical analysis, correlation analysis, and time series modeling. The dashboard is solely designed for entertainment and educational purposes. For more details, visit <a href="{{ site.github.project_3_URL }}" target="_blank">Project Website</a>.
-
-<a href="{{ site.github.project_4_URL }}" target="_blank">Project Website</a>
+4. **May. 2023, Stock Price Prediction via Ensemble Learning and Sentiment Analysis**:
+The final project for class CIS 5190, Applied Machine Learning, at University of Pennsylvania. It proposes the schema of stacking XGBoost and LSTM models with introduction of FinBERT sentiment scores for news headlines each trading day. This approach is trained on a real dataset, the stock prices of Reliance Industries Limited, outperforming the existing models on Kaggle regarding the related evaluationmetrics. Feel free to read the project report here:<a href="{{ site.github.project_4_URL }}" target="_blank">Project Report.pdf</a>
