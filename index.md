@@ -7,6 +7,9 @@ Hello, I am Sam Shi, 施展. I'm a current <a href="{{ site.github.DATS }}" targ
 1. Email: samzshi@sina.com
 2. Linkedin: <a href="{{ site.github.Linkedin_URL }}" target="_blank">www.linkedin.com/in/zhanshisamuel</a>
 
+## Photography
+For my photography, check out [my photo gallery](/photos.md).
+
 ## Education Background
 
 - **MSE**, Data Science, University of Pennsylvania, 2022-2024
