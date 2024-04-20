@@ -7,9 +7,6 @@ Hello, I am Sam Shi, 施展. I'm a current <a href="{{ site.github.DATS }}" targ
 1. Email: samzshi@sina.com
 2. Linkedin: <a href="{{ site.github.Linkedin_URL }}" target="_blank">www.linkedin.com/in/zhanshisamuel</a>
 
-## Photography
-For my photography, check out [my photo gallery](/photos.md).
-
 ## Education Background
 
 - **MSE**, Data Science, University of Pennsylvania, 2022-2024
@@ -26,3 +23,7 @@ An user-friendly and easy-to-use Natural Language Processing package specificall
 A simple stock analysis dashboard that supports common technical analysis, correlation analysis, and time series modeling. The dashboard is solely designed for entertainment and educational purposes. For more details, visit <a href="{{ site.github.project_3_URL }}" target="_blank">Project Website</a>.
 4. **May. 2023, Stock Price Prediction via Ensemble Learning and Sentiment Analysis**:
 The final project for class CIS 5190, Applied Machine Learning, at University of Pennsylvania. It proposes the schema of stock prediction using stacking with introduction of sentiment scores for news headlines. This appraoch outperformed all existing models that time on Kaggle regarding the related evaluation metrics. Feel free to read the report: <a href="{{ site.github.project_4_URL }}" target="_blank">Project Report.pdf</a>
+
+## Photography
+For my photography, check out [my photo gallery](/photos.md).
+
