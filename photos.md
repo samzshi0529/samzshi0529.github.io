@@ -7,3 +7,5 @@ layout: default
 Explore my photo collections:
 
 - [UPenn](/UPenn.md)
+
+[Back](/index.md)
