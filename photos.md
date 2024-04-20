@@ -2,8 +2,8 @@
 layout: default
 ---
 
-## My Photography
+## My Photography Gallery
 
-Here are some of the photos I've taken:
+Explore my photo collections:
 
-![Photo Description](/images/DSCF0018.JPG)
+- [UPenn](/UPenn.md)
