@@ -17,5 +17,5 @@ Here are some of my photos taken during my study at University of Pennsylvania:
 ![Photo 6](/images/UPenn/6.JPG)
 ![Photo 0](/images/UPenn/car.JPG)
 ![Photo 0](/images/UPenn/car2.JPG)
-![Photo 0](/images/UPenn/school.jpg)
-![Photo 0](/images/UPenn/school2.jpg)
+![Photo 0](/images/UPenn/school.JPG)
+![Photo 0](/images/UPenn/school2.JPG)
