@@ -21,3 +21,4 @@ Here are some of my photos taken during my study at University of Pennsylvania:
 ![Photo 0](/images/UPenn/school2.JPG)
 ![Photo 0](/images/UPenn/0428-1.JPG)
 ![Photo 0](/images/UPenn/0428-2.JPG)
+![Photo 0](/images/UPenn/0428-3.JPG)
