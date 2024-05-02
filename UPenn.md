@@ -9,7 +9,6 @@ layout: default
 Here are some of my photos taken during my study at University of Pennsylvania:
 
 ![Photo 0](/images/UPenn/street.jpg)
-![Photo 0](/images/UPenn/street2.JPG)
 ![Photo 0](/images/UPenn/0501-1.JPG)
 ![Photo 0](/images/UPenn/0501-2.JPG)
 ![Photo 0](/images/UPenn/0501-3.JPG)
