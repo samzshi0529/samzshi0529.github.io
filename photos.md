@@ -5,8 +5,9 @@ layout: default
 ## My Photography Gallery
 
 Explore my photo collections:
-
-- [UPenn](/UPenn.md)
+China:
 - [Fuzhou](/Fuzhou.md)
+United States:
+- [UPenn](/UPenn.md)
 
 [Back](/index.md)
