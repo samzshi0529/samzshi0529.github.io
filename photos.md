@@ -7,7 +7,8 @@ layout: default
 Explore my photo collections:
 
 China:
-- [Fuzhou](/Fuzhou.md)
+- [Fuzhou福州](/Fuzhou.md)
+- [Jiuzhaigou九寨沟](/Jiuzhaigou.md)
 
 United States:
 - [UPenn](/UPenn.md)
