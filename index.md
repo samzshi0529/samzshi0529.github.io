@@ -3,7 +3,7 @@ layout: default
 ---
 
 ## About Me 
-Hello, I am Sam Shi, 施展. I'm a current <a href="{{ site.github.DATS }}" target="_blank">MSE in Data Science</a> student at the University of Pennsylvania. I graduated Summa Cum Laude from Wake Forest University majoring in Mathematical Business and Computer Science. I've interned in Data @<a href="{{ site.github.Bloomberg }}" target="_blank">Bloomberg</a>, Consulting @<a href="{{ site.github.Deloitte }}" target="_blank">Deloitte</a> and @<a href="{{ site.github.Ipsos }}" target="_blank">Ipsos</a>. You can contact me via:
+Hello, I am Sam Shi, 施展. I am currently working at Bloomberg LP Shanghai office. I've received my master degree of <a href="{{ site.github.DATS }}" target="_blank">MSE in Data Science</a> at the University of Pennsylvania. I graduated Summa Cum Laude from Wake Forest University majoring in Mathematical Business and Computer Science. I've interned in Data @<a href="{{ site.github.Bloomberg }}" target="_blank">Bloomberg</a>, Consulting @<a href="{{ site.github.Deloitte }}" target="_blank">Deloitte</a> and @<a href="{{ site.github.Ipsos }}" target="_blank">Ipsos</a>. You can contact me via:
 1. Email: samzshi@sina.com
 2. Linkedin: <a href="{{ site.github.Linkedin_URL }}" target="_blank">www.linkedin.com/in/zhanshisamuel</a>
 
