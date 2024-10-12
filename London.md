@@ -13,3 +13,5 @@ Here are some of my photos taken in London, UK:
 ![Photo 3](/images/London/d4.jpg)
 ![Photo 4](/images/London/b5.jpg)
 ![Photo 5](/images/London/IMG_8541.jpeg)
+![Photo 6](/images/London/DSCF5614.jpeg)
+![Photo 7](/images/London/DSCF5622.jpeg)
