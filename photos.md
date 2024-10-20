@@ -6,7 +6,7 @@ layout: default
 
 Explore some of my photo collections here:
 
-Feel free to follow my instagram for more photos https://www.instagram.com/samuels0529/.
+Feel free to follow my instagram for more photos [Instagram Link](https://www.instagram.com/samuels0529/).
 
 China:
 - [Fuzhou福州](/Fuzhou.md)
