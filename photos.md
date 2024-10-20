@@ -4,7 +4,9 @@ layout: default
 
 ## My Photography Gallery
 
-Explore my photo collections:
+Explore some of my photo collections here:
+
+Feel free to follow my instagram for more photos https://www.instagram.com/samuels0529/.
 
 China:
 - [Fuzhou福州](/Fuzhou.md)
